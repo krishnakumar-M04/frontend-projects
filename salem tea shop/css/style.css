@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}  
+  
+  nav{
+    color: gold; 
+    background-color: darkcyan;
+    margin:10px;
+    padding: 10px;
+    text-transform: capitalize;
+    
+    
+}
+nav h1{
+    font-size: 40px;
+}
+nav a{
+    text-align: right;
+     margin: 30px;
+     font-size: x-large;
+    
+    }
+.web{
+    text-align: center;
+}

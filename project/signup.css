@@ -1,0 +1,98 @@
+body{
+
+    background: url(media/startup.jpg);
+    width: 100%;
+   filter: blur(.2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signup{
+     width: 500px;
+     background-color: rgba(225, 225, 225, 0.4);
+     margin: 100px auto;
+     font-size:20px; 
+     height: 550px;
+     border: 1px solid;
+     border-radius: 80px 10px;
+     backdrop-filter:blur(5px) ;
+
+
+}
+div h1{
+    text-align: center;
+    padding: 20px;
+}
+h1:hover{
+    color: rgb(238, 20, 53);
+}
+.must:hover{
+    color:  rgb(238, 20, 53);
+}
+.help:hover{
+    color:  rgb(238, 20, 53);
+}
+.num:hover{
+    color: rgb(238, 20, 53);
+}
+.gender:hover{
+    color: rgb(238, 20, 53);
+}
+.pass:hover{
+    color: rgb(238, 20, 53); 
+}
+
+.must{
+    text-align: center;
+    margin:2px auto;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+
+}
+.help{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px ;
+}
+.num{
+    text-align: center;
+    padding: 10px;
+    text-shadow:  1px 1px 1px;
+}
+.pass{
+    text-align: center;
+    padding: 10px;
+    text-shadow:  1px 1px 1px;
+
+}
+.gender{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+}
+.try{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    text-shadow:1px 1px 1px ; 
+    
+}
+input{
+    box-shadow:2px;
+    font-size:1.2em;
+    border-radius:5px;
+}
+
+#thanks{
+    text-align: center;
+    margin: 300px auto;
+}
+button{
+    background-color: aqua;
+    font-size:20px;
+    padding: 15px 25px;
+    border: 1px solid gray;
+     box-shadow:2px;
+      
+}
+button:hover{
+    color: azure;
+}

@@ -1,0 +1,44 @@
+
+body{
+   
+    background-color: lightpink;
+}
+.a{
+    background-color:whitesmoke;
+     display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(320px,1fr));
+    border:1px solid none;
+    flex-wrap: wrap; 
+    justify-content: center; 
+     text-align: center; 
+    align-items: center;  
+   
+
+}
+.a img{
+    width:50vw; 
+    border: 1px solid white;
+    
+}
+.f{
+    font-size: xx-large;
+    padding: 19px;
+    
+}
+.e button{
+    font-size: 30px;
+    background-color:rgb(20, 128, 97);
+    padding: 5px;
+    margin:10px;
+   
+}
+.d strong:hover{
+    font-size: 40px;
+    color: rgb(0, 128, 111);
+}
+.e a:hover{
+    color: brown;
+}
+.e a{
+    text-decoration: none;
+}

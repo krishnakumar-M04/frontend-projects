@@ -1,0 +1,61 @@
+.square{
+    background-color:brown;
+    width: 380px;
+    height: 380px;
+    transition-duration: 3s; 
+    /* transition-property: background-color; */
+    transition-timing-function: ecubic-bezier(0.42, 0, 1, 0.89);
+
+}
+.square:hover{
+    background-color: aqua;
+    width: 500px;
+    /* transform: rotate( 320deg);
+ */
+}
+.box{
+    width:100px;
+    border-radius: 50%;
+    height: 100px;
+    background-color: coral;
+    animation-name: circle;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+    position:relative;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-direction:alternate-reverse;
+    /* animation-play-state: running;}*/
+}
+@keyframes circle {
+    0%{
+        background-color:hotpink;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    }
+    20%{
+        background-color: blueviolet;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: 200px;
+    }
+    50%{
+        background-color:grey;
+        width: 100px;
+        height: 100px;
+        left: 200px;
+        top: 300px;
+    }
+    100%{
+        background-color: aqua;
+        width: 300px;
+        height: 200px;
+        left: 300px;
+        top: 400px;
+    }
+    
+}

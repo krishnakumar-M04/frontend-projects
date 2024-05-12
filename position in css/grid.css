@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+.jio{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.para{
+    padding: 20px;
+    background-color: crimson;
+    color:azure ;
+    font-size: small;
+}
+.outerbox{
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: 100px 100px 100px 100px;
+     gap:40px ;
+     margin: 30px;
+     /* grid-auto-flow: column; */
+     grid-auto-rows: 100px;
+
+}
+.box{
+    background-color: greenyellow;
+    color: azure;
+    display: grid;
+    font-size: 2em; 
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column:  span 4;
+}

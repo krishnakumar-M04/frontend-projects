@@ -1,0 +1,22 @@
+.bluebox{
+    background-color:  blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* (
+        position: sticky; ) this makre the box move   untill reach the value the value we give\
+     top:35; bottom:60;*/
+
+}
+.yellowbox{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    /* (position: relative) from the relative we can move the boox from the static position;
+    bottom: 150px;
+    left: 50px; */
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    /* (position: fixed;)  this make the box fixed and move over the paragraph*/
+}

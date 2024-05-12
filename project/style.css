@@ -1,0 +1,124 @@
+body{
+
+    background: url(media/back.jpg);
+   filter: blur(.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signup{
+     width: 500px;
+     background-color: rgba(101, 24, 24, 0.4);
+     margin: 200px auto; 
+     font-size:20px; 
+     border: 1px solid;
+     border-radius: 80px 10px;
+
+
+}
+div h1{
+    text-align: center;
+    padding: 20px;
+}
+h1:hover{
+    color: rgb(108, 108, 186);
+}
+.must:hover{
+    color: azure;
+}
+.help:hover{
+    color: azure;
+}
+.num:hover{
+    color: azure;
+}
+.gender:hover{
+    color: azure;
+}
+.try:hover{
+    color:darkgreen;
+}
+.must{
+    text-align: center;
+    margin:2px auto;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+
+}
+.help{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px ;
+}
+.num{
+    text-align: center;
+    padding: 10px;
+    text-shadow:  1px 1px 1px;
+}
+.gender{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+}
+.try{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    text-shadow:1px 1px 1px ; 
+    
+}
+input{
+    box-shadow:2px;
+    font-size:1.2em;
+    border-radius:5px;
+}
+input:focus{
+    background-color:rgb(123 232 122);
+}
+#thanks{
+    text-align: center;
+    margin: 300px auto;
+}
+button{
+    background-color: aqua;
+    font-size:20px;
+    padding: 15px 25px;
+    border: 1px solid gray;
+     box-shadow:2px;
+      
+}
+button:hover{
+    color: azure;
+}
+.gender input{
+    accent-color: violet;
+    transform:scale(2) ;
+     -ms-transform:scale(2);
+     -webkit-transform: scale(2);
+}
+.account a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 15px;
+   
+}
+.account a:hover{
+    color:blue;
+
+}
+.forgot a:hover{
+    color:blue;
+}
+
+.forgot a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding:0  5px;
+    margin:0 5px;
+   
+}
+.active{
+    display:inline-flex;
+    justify-content: space-around;
+}

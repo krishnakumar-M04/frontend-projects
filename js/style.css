@@ -1,0 +1,33 @@
+.file {
+    padding-left: 50px;
+}
+
+.folder a h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.folder a {
+    text-decoration: none;
+    color: black;
+}
+
+.folder {
+    border: 1px solid black;
+    width: 300px;
+    height: 490px;
+    background-color:dimgrey;
+    margin-left:80%;  
+    margin-top: 5px; 
+}
+
+.container-fluid {
+    background-color: rgb(233, 183, 196);
+}
+
+.container-fluid a {
+    color: black;
+}
+.folder .file button{
+    justify-content: center;
+}

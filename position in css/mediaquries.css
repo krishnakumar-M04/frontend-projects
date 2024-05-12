@@ -1,0 +1,23 @@
+ .para1{
+    background-color: aqua;
+ }
+ .para2{
+    background-color: bisque;
+
+ }
+ .para3{
+    background-color: darkcyan;
+
+ }
+ @media all and (min-width:800px){
+        .parent p{
+                    width: 30%;
+                    float: left;
+                    padding: 10px; 
+                }
+               .para3{
+                    background-color: aquamarine;
+                }
+            
+         
+ }

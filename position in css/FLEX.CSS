@@ -1,0 +1,55 @@
+.outerbox{
+     min-height: 400px;
+    background-color: beige;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+    align-items: center;
+
+}
+
+.box{
+    width: 250px;
+    height: 100px;
+  background-color: blue;
+    border: 2px solid  white;
+}
+/* .box1{
+    align-self:flex-start;
+}
+    */
+.para1{
+    background-color:aquamarine ;
+    border: double;
+    padding:10px;
+    margin-right:5px; 
+     width: 300px;
+     text-align: justify;
+     border-width:20px 30px 30px 40px ;
+     border-image: url(img/star9.jpg )stretch;
+
+}
+.para3{
+    background-color: brown;
+    border: double;
+    padding:10px;
+    margin-right:5px; 
+    width: 300px;
+    text-align: justify;
+    border-width:20px 30px 30px 40px ;
+}
+.para2{
+    background-color: chartreuse;
+    border: double;
+     padding:10px;
+     margin-right:5px;
+     width: 350px;
+     text-align: justify;border-width:20px 30px 30px 40px ;
+}
+
+/* flex is used to arrange the para easily in row */
+.parent{
+    display: flex;
+
+    
+}

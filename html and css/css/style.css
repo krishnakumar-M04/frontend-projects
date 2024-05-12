@@ -1,0 +1,64 @@
+h1{
+    color: rgb(34,67,90);
+    background-color:rgba(56,34,67,.4);
+}
+/* font */
+   body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+   }
+   .para5{
+    color: darkmagenta;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  30px;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+   }
+   .parra1{
+    color:darkgrey ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    letter-spacing: .1;
+    word-spacing: .5;
+    text-align: justify;
+    text-indent: 3em;
+    text-shadow: 2px 3px 4px black;
+}
+p::first-letter{
+    color: rgb(100 230 245);
+}
+/* link is used for changing the color the color that we have not visited yet  */
+a:link{
+    color: forestgreen;
+}
+/* visted is used for changing the color of the link we have visted already */
+a:visited{
+    color: brown;
+
+}
+/* hover is used for making the link to chnage color when move the cursor on the link  */
+a:hover{
+    color: darkblue;
+
+}
+/* focus is the key that is used for the easily focusing the link using tab */
+a:focus{
+    color: rgb(34,67,90);
+}
+/* active is the key used for making to changing the when we touched its only a fraction of sec */
+a:active{
+    color: chartreuse;
+
+}
+p[class]{
+    color: orange;
+  } 
+   /* ~ this used for selection of a specfic class that has larger name   */
+p[class~="myclass"]{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

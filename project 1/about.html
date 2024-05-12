@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contain">
+      <!-- main content-->
+      <header class="main-header">
+        <!-- logo -->
+         <a href="">
+         <img src="image/logo.jpeg" alt=" logo with person" style="width: 100px;">
+         </a>
+        
+         <!-- search bar -->
+         <div class="search-holder">
+            <form action="" method="get">
+         
+            <input type="search" name="e_search" placeholder="search for..." id="e_name">
+            <button type="submit">search</button>
+        </form> 
+    </header>
+        <nav class="main-menu">
+            <ul class="mobile-menu">
+                <li><a href="#">menu</a></li>
+                <li><a href="#"class="toggler">+</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a>
+                    <ul class="drop">
+                        <li><a href="">services 1</a></li>
+                        <li><a href=""> services 2</a></li>
+                        <li><a href=""> services 3</a></li>
+                </ul> 
+                </li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        <!--About holder-->
+        <section class="About-holder">
+            <article class="about">
+                <h1>About<b>farm land</b></h1>
+                <p> Welcome to <b>farm land</b> where we share information related to Farming production. We're dedicated to providing you the very best information and knowledge of the above mentioned topics. </p>
+                
+                <p>We hope you found all of the information on <b>farm land</b> helpful, as we love to share them with you.</p>
+                
+                <p>If you require any more information or have any questions about our site, please feel free to contact us by email at <b><a href="mailto:krishnakumarm432@gmail.com">krishnakumarm432@gmail.com</a></b>.</p>
+                
+            </article>
+
+        </section>
+        <!--About holder-->
+        
+    
+        <!-- Footer widgets-->
+        <section class="footer-widgets-holder">
+            <div class="footer-widget">
+                <a href="">
+                    <img src="image/logo.jpeg" alt="" style="width: 100px; height: 50px;">
+                 </a>
+                 <h3>Address</h3>
+                 <address>2/197 , Mariyamman Nagar , Thennagudipalayam , Attur (tk) , Salem(dt). Pincode - 636108.</address>
+            </div>
+            <div class="footer-widget">
+                <h4>Company</h4>
+                <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="">Services</a></li>
+                 <li><a href="">Products</a></li>
+                 <li><a href="">Privacy policy</a></li>
+                 <li><a href="">Affliate program</a></li>
+                </ul>
+             </div>
+             <div class="footer-widget">
+                 <h4>Get help</h4>
+                 <ul>
+                  <li><a href="">FAQ</a></li>
+                  <li><a href=""> Order Status</a></li>
+                  
+                 </ul>
+              </div>
+              <div class="footer-widget">
+                 <h4>online shop</h4>
+                 <ul>
+                  <li><a href="">Cow Farm</a></li>
+                  <li><a href="">Pig Farm</a></li>
+                  <li><a href="">Goat Farm</a></li>
+                  <li><a href="">Turkey Farm</a></li>
+                  <li><a href="">Chicken Farm</a></li>
+                 </ul>
+              </div>
+
+        </section>
+
+
+    <footer class="site-footer">
+        <p><small>copyright &copy; 2023</small></p>
+    </footer>
+        </div>
+     
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+            $(document).ready(function() {
+        $('#adaptive').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+    });
+
+    //$('.main-menu > ul:nth-of-type(2)').hide();
+    $('.toggler').click(function(){
+        $('.main-menu > ul:nth-of-type(2)').toggle();
+        $('.drop').css({'display':'block','position':'relative'});
+    });
+});
+    </script>
+</body>
+</html>

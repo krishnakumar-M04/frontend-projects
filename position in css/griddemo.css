@@ -1,0 +1,45 @@
+body{
+    background-color: brown;
+    
+}
+.her div{
+    display:grid;
+   justify-content: center;
+    align-items: center;
+    border:1px solid;
+    background-color: beige;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+
+}
+.her{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 20vh 80vh 20vh;
+    grid-template-areas: 
+   " h h h h h  "
+    "sd m m m sd2"
+    "f f f f f" ;  
+
+
+}
+.his{ 
+    grid-area: h;
+
+}
+.box1{
+
+grid-area: sd;
+}
+.box2{
+    grid-area: m;
+    flex: 2 ;
+
+}
+.box3{
+    grid-area: sd2;
+}
+.box5{
+    grid-area: f;
+}
