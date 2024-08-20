@@ -1,0 +1,75 @@
+@media (max-width:800px)  {
+    .home-sec{
+      display: grid;
+      
+    }
+    .home-img {
+      width:250px;
+      padding-top: 0;
+      margin-left: 200px;
+    }
+    .About-sec{
+      display: grid;
+
+    }
+    .Education-sec{
+      display: grid;
+    }
+    .Education-header h1{
+      width: 100%;
+      
+    }
+    .Education-details{
+      display: flex;
+      flex-direction:column;
+      
+    }
+    .Education-details .Education-inner img{
+       max-width:500px ;
+       min-width: 250px;
+       margin-right: 180px;
+    }
+    .Project-sec {
+      display: grid;
+    }
+    .Project-sec h1{
+      width: 100%;
+      margin-left: 200px;
+    }
+    .Project-sec1{
+      margin-left: 200px;
+    }
+    
+    
+    .Project-details {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-sec{
+      display: grid;
+      margin-left: 250px;
+     
+    }
+    .footer-sec{
+      width: 100%;
+      border-top: 2px solid black;
+      border-top-width: 100%;
+
+    }
+    .footer-sec h1{
+      margin: 5px;
+      width: 100px;
+
+    }
+    .footer-sec p{
+      margin: 5px;
+      width: 200px;
+    }
+    .footer-sec a{
+      margin: 5px;
+      width: 300px;
+    }
+
+
+
+}
